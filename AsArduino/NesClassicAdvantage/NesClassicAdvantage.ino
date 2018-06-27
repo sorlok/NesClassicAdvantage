@@ -30,26 +30,26 @@
 
 // controller buttons
 // pin numbers according to Arduino pin numbering
-#define LEFT_BUTTON_PIN 2
-#define RIGHT_BUTTON_PIN 3
-#define UP_BUTTON_PIN 4
-#define DOWN_BUTTON_PIN 5
+#define LEFT_BUTTON_PIN A0
+#define RIGHT_BUTTON_PIN 10
+#define UP_BUTTON_PIN 11
+#define DOWN_BUTTON_PIN 12
 
 #define A_BUTTON_PIN 6
 #define B_BUTTON_PIN 7
 #define X_BUTTON_PIN 8
-#define Y_BUTTON_PIN 9
+#define Y_BUTTON_PIN 13
 
 // Select, Start
-#define MINUS_BUTTON_PIN 10
-#define PLUS_BUTTON_PIN 11
+#define MINUS_BUTTON_PIN 5
+#define PLUS_BUTTON_PIN 4
 
-#define L_BUTTON_PIN 12
-#define R_BUTTON_PIN 13
+#define L_BUTTON_PIN 2
+#define R_BUTTON_PIN 9
 
 // L has an optional input due to how the UD-DB15 works
 // This is on the analog input
-#define L_BUTTON_PIN_OPT A0
+#define L_BUTTON_PIN_OPT 3
 
 
 // Classic Controller Buttons
